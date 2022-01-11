@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header, section, footer{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#titulo{
+    margin-top: 0.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 5rem;
+}
+#titulo h1{
+    text-align: center;
+    padding-top: 1rem;
+    text-shadow: red 2px 2px 25px ;
+}
+#cuestionario{
+    margin-top: 0.2rem;
+    height: 10.5rem;
+    width: auto;
+    box-shadow: black 2px 2px 25px;
+    border-radius: 10px;
+}
+#cuestionario ul li{
+    list-style-type: none;
+    color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+    margin: 0.2rem;
+    
+}
+.pregunta_uno{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 12pt;
+    padding-top: 0.5rem;
+    
+}
+.respuesta_uno{
+    padding-left: 1.5rem;
+}
+.pregunta_dos{
+    font-weight: 600;
+
+}
+.respuesta_dos{
+    padding-left: 1.5rem;
+}
+.pregunta_tres{
+    font-weight: 600;
+
+}
+.respuesta_tres{
+    padding-left: 1.5rem;
+    padding-bottom: 5rem;
+
+
+}
+#creditos{
+    background-color: black;
+    margin-top: 0.5rem;
+    border-radius: 10px;
+}
+.devOps{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 10pt;
+}
